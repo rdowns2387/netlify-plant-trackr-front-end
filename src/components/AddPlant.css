@@ -1,0 +1,31 @@
+.addPlantForm {
+    border: 1px solid gray !important;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+
+.plantFormMargin {
+    margin-top: 2rem;
+}
+
+.addPlantTextBox {
+    width: 95%;
+    border-radius: 5px;
+    height: 80%;
+    border: 1px solid gray;
+    padding-left: 1rem;
+}
+
+.addPlantFormSelect {
+    width: 100%;
+}
+
+input {
+    margin-right: .5rem
+}
+
+.completedListItem {
+    list-style-image: url('../../public/img/check-sm.png')
+}

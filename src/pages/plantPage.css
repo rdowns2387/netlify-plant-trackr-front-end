@@ -1,0 +1,17 @@
+.plantPageImg {
+    height: auto;
+    width: 100%;
+}
+
+.plantPageHeader {
+    background-color: gray
+}
+
+.plantDataCard {
+    border-radius: 1rem;
+    border: 1px solid gray;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}

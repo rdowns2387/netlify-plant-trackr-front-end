@@ -7,10 +7,9 @@ import { useParams } from "react-router-dom";
 import "./plantPage.css";
 
 export const Plant = () => {
-  let { plant_id } = useParams();
-  console.log("Plant ID line 16", plant_id);
   //setting a const that loads on launch
   const [plant, setPlant] = useState([]);
+  let { plant_id } = useParams();
 
   useEffect(() => {
     Axios.get(
@@ -27,7 +26,11 @@ export const Plant = () => {
         <Container>
           <Row style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
             <Col>
-              <img className="plantPageImg" src={`/uploads/${plant.file}`} />
+              <img
+                alt=""
+                className="plantPageImg"
+                src={`/uploads/${plant.file}`}
+              />
             </Col>
             <Col xs={9}>
               <h1>{plant.name}</h1>

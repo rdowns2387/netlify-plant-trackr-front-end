@@ -13,7 +13,7 @@ export const Plant = () => {
 
   useEffect(() => {
     Axios.get(
-      `https://gregarious-gecko-95f3fc.netlify.app/plant/${plant_id}`
+      `https://brents-plant-tracker.netlify.app/plant/${plant_id}`
     ).then((response) => {
       setPlant(response.data);
     });

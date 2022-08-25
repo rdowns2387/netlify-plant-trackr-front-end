@@ -47,7 +47,7 @@ function App() {
 
   //contact the db using axios, then set above const to the server's response
   useEffect(() => {
-    Axios.get("https://brents-plant-tracker.netlify.app/getPlants").then(
+    Axios.get("https://brents-plant-trackr.herokuapp.com/getPlants").then(
       (response) => {
         setListOfPlants(response.data);
       }

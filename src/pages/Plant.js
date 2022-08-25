@@ -13,7 +13,7 @@ export const Plant = () => {
 
   useEffect(() => {
     Axios.get(
-      `https://brents-plant-tracker.netlify.app/plant/${plant_id}`
+      `https://brents-plant-trackr.herokuapp.com/plant/${plant_id}`
     ).then((response) => {
       setPlant(response.data);
     });

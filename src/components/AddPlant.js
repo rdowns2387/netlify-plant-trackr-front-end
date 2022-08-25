@@ -130,7 +130,7 @@ function AddPlant() {
               <h3>Basics</h3>
 
               <Col>
-                <label>Plant name</label>
+                <label>Common name</label>
                 <br></br>
                 <input
                   className="addPlantTextBox"

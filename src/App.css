@@ -1,10 +1,14 @@
-.App {
-  text-align: left;
-}
+
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
@@ -12,7 +16,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -29,4 +33,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.outer-margin {
+  padding: 2rem 10rem;
+}
+
+.plantCardLink {
+  text-decoration: none !important;
+  color: #282c34;
+}
+
+.plantCard {
+  margin-bottom: 2rem;
+  height: 40rem;
+}
+
+.plantCardImg {
+  max-height: 500px;
+}
+
+.plantCounter {
+  background: url('../public/img/plant-bg.jpeg');
+  color: white;
+  height: 7rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

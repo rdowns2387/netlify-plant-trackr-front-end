@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import AddPlant from "./components/AddPlant";
 import { Homepage } from "./pages/Homepage";
 import { Plant } from "./pages/Plant";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // class LambdaDemo extends Component {
 //   constructor(props) {

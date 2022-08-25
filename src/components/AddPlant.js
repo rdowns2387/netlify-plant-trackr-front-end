@@ -108,7 +108,7 @@ function AddPlant() {
             humidity,
           },
         ]);
-        navigate("/");
+        navigate(-1);
       })
       .catch((err) => {
         console.log("This is the Error: ", err);

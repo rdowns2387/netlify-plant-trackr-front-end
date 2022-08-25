@@ -1,13 +1,12 @@
 import "./AddPlant.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/col";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+
 function AddPlant() {
   //setting a const that loads on launch
   const [listOfPlants, setListOfPlants] = useState([]);

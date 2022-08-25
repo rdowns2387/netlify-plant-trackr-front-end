@@ -1,9 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import Axios from "axios";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AddPlant from "./components/AddPlant";
 import { Homepage } from "./pages/Homepage";

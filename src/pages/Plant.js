@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 import Axios from "axios";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
+import { Col, Row, Container, Badge } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useParams } from "react-router-dom";
-import Badge from "react-bootstrap/Badge";
 import "./plantPage.css";
 
 export const Plant = () => {

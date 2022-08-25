@@ -46,7 +46,7 @@ function AddPlant() {
 
     data.append("file", file);
 
-    Axios.post("https://brents-plant-trackr.herokuapp.com/upload", data)
+    Axios.post("https://gregarious-gecko-95f3fc.netlify.app/upload", data)
       .then((response) => {
         console.log("Image uploaded");
       })
@@ -54,7 +54,7 @@ function AddPlant() {
         console.error("Error: ", err);
       });
 
-    Axios.post("https://brents-plant-trackr.herokuapp.com/createPlant", {
+    Axios.post("https://gregarious-gecko-95f3fc.netlify.app/createPlant", {
       name,
       scientificName,
       file: fileName,

@@ -14,7 +14,7 @@ export const Homepage = () => {
 
   //contact the db using axios, then set above const to the server's response
   useEffect(() => {
-    Axios.get("https://brents-plant-trackr.herokuapp.com/getPlants").then(
+    Axios.get("https://gregarious-gecko-95f3fc.netlify.app//getPlants").then(
       (response) => {
         setListOfPlants(response.data);
       }
